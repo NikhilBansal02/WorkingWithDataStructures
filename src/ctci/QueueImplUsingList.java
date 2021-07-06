@@ -38,7 +38,6 @@ public class QueueImplUsingList{
 		dequeue();
 		front();
 		rear();
-
 	}
 
 	public static void enqueue(int data)
@@ -57,11 +56,9 @@ public class QueueImplUsingList{
 		rear = new_node;
 		System.out.println("Element Enqueued : "+rear.data);
 
-
 	}
 
 	public static void dequeue(){
-
 
 		if(front==null){
 			System.out.println("Queue is Empty");
